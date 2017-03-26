@@ -2,6 +2,7 @@ FROM debian:stretch
 MAINTAINER Dylan Baker <dylan@pnwbakers.com>
 
 RUN apt-get update -qq && apt-get install -qq -y \
+        locales \
         python3-pip \
         python \
         python-mako \
