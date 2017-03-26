@@ -3,6 +3,7 @@ MAINTAINER Dylan Baker <dylan@pnwbakers.com>
 
 RUN apt-get update -qq && apt-get install -qq -y \
         locales \
+        ninja-build \
         python3-pip \
         python \
         python-mako \
