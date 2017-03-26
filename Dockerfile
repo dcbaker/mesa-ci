@@ -9,7 +9,7 @@ RUN apt-get update -qq && apt-get install -qq -y \
         gcc \
         flex \
         bison \
-        zlibc \
+        zlib1g-dev \
         pkg-config \
         libelf-dev \
         libdrm-dev \
