@@ -10,6 +10,7 @@ RUN apt-get update -qq && apt-get install -qq -y \
         flex \
         bison \
         zlibc \
+        pkg-config \
         libelf-dev \
         libdrm-dev \
         libx11-xcb-dev \
