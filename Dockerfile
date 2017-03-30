@@ -8,6 +8,7 @@ RUN apt-get update -qq && apt-get install -qq -y \
         python \
         python-mako \
         gcc \
+        clang \
         flex \
         bison \
         zlib1g-dev \
